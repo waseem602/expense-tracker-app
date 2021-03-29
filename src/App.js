@@ -22,7 +22,7 @@ function App() {
                       <br />
                       <hr />
                       <h4>
-                        Special Thanks to Sir:<br />
+                        Special Thanks to Sir:<br /><br />
                         <a href="https://web.facebook.com/ziakhan">Zia Khan</a><br />
                         <a href="https://web.facebook.com/aamirpinger">Aamir Pinger</a><br />
                         Muhammad Mohsin Khalid & Team<br />
