@@ -10,21 +10,19 @@ import { GlobalProvider } from "./context/GlobalState";
 function App() {
   return (
     <GlobalProvider>
-      <form>
-        <Header />
-        <div className="container">
-          <Balance />
-          <IncomeExpenses />
-          <TransactionList />
-          <AddTransaction />
-          <h3>
-            <a href="https://github.com/waseem602/expense-tracker-app">
-              Git Source
-            </a>
-            <br />
-          </h3>
-        </div>
-      </form>
+      <Header />
+      <div className="container">
+        <Balance />
+        <IncomeExpenses />
+        <TransactionList />
+        <AddTransaction />
+        <h3>
+          <a href="https://github.com/waseem602/expense-tracker-app">
+            Git Source
+          </a>
+          <br />
+        </h3>
+      </div>
     </GlobalProvider>
   );
 }
