@@ -11,17 +11,18 @@ function App() {
   return (
     <GlobalProvider>
       <Header />
+      <h3>
+        <a href="https://github.com/waseem602/expense-tracker-app">
+          Git Source
+        </a>{" "}
+        - waseem602
+        <br />
+      </h3>
       <div className="container">
         <Balance />
         <IncomeExpenses />
         <TransactionList />
         <AddTransaction />
-        <h3>
-          <a href="https://github.com/waseem602/expense-tracker-app">
-            Git Source
-          </a>
-          <br />
-        </h3>
       </div>
     </GlobalProvider>
   );
