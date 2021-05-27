@@ -17,20 +17,10 @@ function App() {
         <TransactionList />
         <AddTransaction />
         <h3>
-          Code by: <a href="https://github.com/waseem602">WASEEM</a>
+          <a href="https://github.com/waseem602/expense-tracker-app">
+            Git Source
+          </a>
           <br />
-          <hr />
-          <h4>
-            Special Thanks to Sir:
-            <br />
-            <br />
-            <a href="https://web.facebook.com/ziakhan">Zia Khan</a>
-            <br />
-            <a href="https://web.facebook.com/aamirpinger">Aamir Pinger</a>
-            <br />
-            Muhammad Mohsin Khalid & Team
-            <br />
-          </h4>
         </h3>
       </div>
     </GlobalProvider>

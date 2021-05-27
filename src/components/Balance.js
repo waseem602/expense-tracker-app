@@ -8,8 +8,8 @@ export const Balance = () => {
 
   return (
     <>
-      <h4>Your Balance</h4>
-      <h1>${total}</h1>
+      <h4 className="balance-heading">Your Balance</h4>
+      <h1 className="balance">${total}</h1>
     </>
   );
 };
