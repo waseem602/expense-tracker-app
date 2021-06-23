@@ -9,10 +9,10 @@
 }
 
 body {
-  background-image: url("./components/images/expense.jpg");
-  background-position: top;
+  background-position: cover;
   background-repeat: no-repeat;
-  border-radius: 5%;
+  background-color: #bbb;
+  size: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +21,15 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Lato", sans-serif;
+}
+
+.history {
+  background-color: white;
+
+  
+  text-align: center;
+  color: #2ecc71;
+  font-size: xx-large;
 }
 
 form {
